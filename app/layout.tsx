@@ -2,15 +2,19 @@ import { Inter } from 'next/font/google';
 
 import '@/styles/base.css';
 import Layout from '@/components/layout';
+import { Metadata } from 'next';
 
 const inter = Inter({
   variable: '--font-inter',
   subsets: ['latin'],
 });
 
+export const metadata: Metadata = {
+  title: 'Leren Chatbot',
+  description: 'Learn math and histories. #LearnToBeLeren',
+};
+
 export default function RootLayout({
-  // Layouts must accept a children prop.
-  // This will be populated with nested layouts or pages
   children,
 }: {
   children: React.ReactNode;
