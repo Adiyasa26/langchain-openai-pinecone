@@ -18,7 +18,7 @@ import { cn } from '@/utils/cn';
 export default function Home() {
   const defaultMessage = [
     "Leerling, you seem struggling, asking questions doesn't fool you.",
-    'Lerling, let me you something, educating the mind without educating the heart is no education at all, now as me something!',
+    'Lerling, let me tell you something, educating the mind without educating the heart is no education at all, now ask me something!',
     "Leerling, remember this! Those who know do, those that understand, teach, now let's discuss!",
     "Leerling, be a free thinker and don't accept everything you hear as truth. Be critical and evaluate what you belive in. Now let's sharpen our minds by discussing",
   ];
