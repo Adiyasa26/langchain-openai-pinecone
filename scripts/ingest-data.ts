@@ -38,7 +38,7 @@ export const run = async () => {
     //embed the PDF documents
     await PineconeStore.fromDocuments(docs, embeddings, {
       pineconeIndex: index,
-      namespace: PINECONE_NAME_SPACE,
+      // namespace: PINECONE_NAME_SPACE, https://github.com/mayooear/gpt4-pdf-chatbot-langchain/issues/97#issuecomment-1664751781
       textKey: 'text',
     });
   } catch (error) {
