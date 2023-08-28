@@ -115,6 +115,7 @@
   0% {
     background-position: -100% 0;
   }
+
   100% {
     background-position: 100% 0;
   }
@@ -131,6 +132,7 @@
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -169,8 +171,9 @@
 .boticon,
 .usericon {
   margin-right: 1rem;
-  border-radius: 0.1rem;
+  border-radius: 100%;
   height: 100%;
+  aspect-ratio: 1/1;
 }
 
 .markdownanswer h1,
@@ -236,9 +239,11 @@
     width: 22rem;
     height: 28rem;
   }
+
   .textarea {
     width: 22rem;
   }
+
   .topnav {
     border: 1px solid black;
     align-items: center;
